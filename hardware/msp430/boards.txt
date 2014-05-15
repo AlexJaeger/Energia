@@ -39,6 +39,16 @@ lpmsp430g2553.build.variant=launchpad
 lpmsp430g2553.upload.maximum_ram_size=512
 
 ##############################################################
+28p430g2553.name=LaunchPad msp430g2553 [28-PIN] (16MHz)
+28p430g2553.upload.protocol=rf2500
+28p430g2553.upload.maximum_size=16384
+28p430g2553.build.mcu=msp430g2553
+28p430g2553.build.f_cpu=16000000L
+28p430g2553.build.core=msp430
+28p430g2553.build.variant=launchpad_MSP430G2553_28pin
+28p430g2553.upload.maximum_ram_size=512
+
+##############################################################
 lpmsp430fr5739.name=FraunchPad w/ msp430fr5739
 lpmsp430fr5739.upload.protocol=rf2500
 lpmsp430fr5739.upload.maximum_size=15872
